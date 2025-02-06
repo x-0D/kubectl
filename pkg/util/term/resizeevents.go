@@ -1,5 +1,5 @@
-//go:build !windows
-// +build !windows
+//go:build !windows && !js && !wasip1
+// +build !windows,!js,!wasip1
 
 /*
 Copyright 2016 The Kubernetes Authors.
